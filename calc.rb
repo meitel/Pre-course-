@@ -17,3 +17,17 @@ puts 60 * 24 * 365 * 10
 puts (60.0 * 60.0 * 24.0 * 365.0 * 23.0)
 # our dear authors age at 1160000000 seconds
 puts (1160000000.0 / 60.0 / 60.0 / 24.0 / 365.0)
+puts 'I like ' + 'apple pie.'
+puts 'I like' + ' apple pie.'
+puts 'blink ' * 4
+puts 12 + 12
+puts '12' + '12'
+puts '12 + 12'
+puts 2 * 5
+puts '2' * 5
+puts '2 * 5'
+puts 'You\'re swell!'
+puts 'You\'re swell!'
+puts 'backslash at the end of a string:  \\'
+puts 'up\\down'
+puts 'up\down'
