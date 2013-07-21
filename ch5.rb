@@ -16,3 +16,26 @@ puts 20
 puts 20.to_s
 puts '20'
 puts gets
+
+puts 'Hello there, and what\'s your name?'
+name = gets
+puts 'Your name is ' + name + '?  What a lovely name!'
+puts 'Pleased to meet you, ' + name + '.  :)'
+
+puts 'Hello there, and what\'s your name'
+name = gets.chomp
+puts 'Your name is ' + name + '?  What a lovely name!'
+puts 'Pleased to meet you, ' + name + '.  :)'
+#Full name greeting
+puts 'Hello there, and what\'s your first name?'
+first = gets.chomp
+puts 'Your first name is ' + first + '!  And what is your middle name?'
+middle = gets.chomp
+puts 'Your middle name is ' + middle + '! And what is your last name?'
+last = gets.chomp
+puts 'Your last name is ' + last + '!'
+puts 'Hello ' + first + ' ' + middle + ' ' + last + '.  :)'
+#Bigger, better favorite number
+puts 'Hello there, and what\'s your favorite number?'
+input = gets.chomp.to_i
+puts 'A bigger and better number is ' + (input + 1).to_s + '. :)'
