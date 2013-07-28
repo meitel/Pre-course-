@@ -1,15 +1,22 @@
 #99 Bottles of Beer on the Wall
-Bottle = 99
+bottle = 99
  
 while bottle > 0
   if bottle > 1
-    puts bottle.to_s + ' Bottles of Beer on the Wall'
-    puts bottle.to_s + ' Bottles of Beer'
+    puts bottle.to_s + ' Bottles of Beer on the Wall, ' + bottle.to_s + ' Bottles of Beer '
     puts 'Take One Down, Pass it Around'
-    puts bottles.to_s + ' Bottles of Beer on the Wall'
-  elsif bottle > 0
-    puts "1 Bottle of Beer on the Wall"
-    puts "1 Bottle of Beer"
+    if bottle == 2
+      puts '1 Bottle of Beer on the Wall, 1 Bottle of Beer'
+    end
+    if  bottle > 2
+      puts (bottle - 1).to_s + ' Bottles of Beer on the Wall '
+    end 
+  elsif bottle == 1
+    puts '1 Bottle of Beer'
+  elsif bottle == 0
+    puts '1 Bottle of Beer'
   end
-  Bottle = Bottle - 1
+  bottle -= 1
 end
+puts 'No more bottles of beer on the wall, no more bottles of beer.'
+puts 'Go to the store and buy some more, 99 bottles of beer on the wall.' 
