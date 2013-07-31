@@ -1,3 +1,4 @@
+# Rewrite Table of Contents from Ch.6
 tableOfContents = [ [1, 'Getting Started', 1], [2, 'Numbers', 9], [3, 'Letters', 13] ]
 lineWidth = 60
 puts 'Table of Contents'.center(lineWidth)
